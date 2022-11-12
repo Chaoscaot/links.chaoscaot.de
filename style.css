@@ -1,0 +1,107 @@
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    transition: all 0.75s linear;
+}
+
+a {
+    color: currentColor;
+}
+
+main {
+    background: lightcyan;
+    border: lightblue 3px solid;
+    width: 400px;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 1rem black);
+    transition: transform .5s ease-in-out;
+}
+
+main:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    cursor: default;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    margin: 1rem 5%;
+    width: 90%;
+    background: #FFFFFF10;
+    border: lightblue 1px solid;
+    border-radius: 0.5rem;
+    backdrop-filter: blur();
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.5);
+    background: white;
+    color: black;
+}
+
+span {
+    margin: 0.5rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bottom > * {
+    margin: 0 0.5ch;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(28, 36, 27);
+        color: white;
+    }
+
+    main {
+        background: linear-gradient(45deg, rgb(41, 18, 109), rgb(54, 9, 57));
+        border: rgb(19, 6, 60) 3px solid;
+        filter: drop-shadow(0 0 1rem rgb(54, 9, 57));
+    }
+
+    .card {
+        border: rgb(19, 6, 60) 1px solid;
+        color: white;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    main {
+        border: none;
+        border-radius: 0;
+        height: 100vh;
+        width: 100vw;
+        filter: none;
+        transition: none;
+        transform: none !important;
+        overflow: hidden;
+    }
+}
+
+.copied {
+    transition: background-color 0.3s;
+    background: lawngreen !important;
+}

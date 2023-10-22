@@ -13,19 +13,19 @@
 <body>
     <main>
         <h1><i class="fa-regular fa-user"></i> Chaoscaot.de - Links</h1>
-        <a class="card" href="github">
+        <a class="card" href="/github/">
             <span><i class="fa-brands fa-github"></i> GitHub</span>
         </a>
-        <a class="card" id="twitter" href="twitter">
+        <a class="card" id="twitter" href="/twitter/">
             <span><i class="fa-brands fa-twitter"></i> Twitter</span>
         </a>
-        <a class="card" href="instagram">
+        <a class="card" href="/instagram/">
             <span><i class="fa-brands fa-instagram"></i> Instagram</span>
         </a>
         <div class="card" id="discord">
             <span><i class="fa-brands fa-discord"></i> Discord</span>
         </div>
-        <a class="card" href="telegram">
+        <a class="card" href="/telegram/">
             <span><i class="fa-brands fa-telegram"></i> Telegram</span>
         </a>
         <div class="card" id="bottom">
